@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class StartScreen extends StatelessWidget {
   //startQuiz type function dont take argement and dont return anything
@@ -14,10 +15,10 @@ class StartScreen extends StatelessWidget {
           Image.asset('assets/images/quiz-logo.png', width: 300,
           color: const Color.fromARGB(101, 255, 255, 255),),
           const SizedBox(height: 80),
-          const Text(
+           Text(
             'Learn Flutter in fun way',
-            style: TextStyle(
-              color: Color.fromARGB(255, 0, 0, 0),
+            style: GoogleFonts.lato(
+              color: const Color.fromARGB(255, 0, 0, 0),
               fontSize: 24,
               fontWeight: FontWeight.bold,
             ),
